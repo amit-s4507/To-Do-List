@@ -63,7 +63,7 @@ button{
     background: #ff5945;
     padding: 16px 50px;
     color : #fff;
-    font-size : 16 px;
+    font-size : 16px;
     cursor : pointer;
     border-radius: 40px;
 }
@@ -74,6 +74,7 @@ ul li{
     padding : 12px 8px 12px 50px;
     user-select: none;
     cursor : pointer;   
+    position: relative;
 
 }
 
@@ -98,5 +99,5 @@ ul li.checked{
 
 ul li.checked::before{
     background-image: url(images/unchecked.png);
-    
+
 }
